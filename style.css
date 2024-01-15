@@ -1,0 +1,41 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(#103783, #9bafd9);
+    height: 71.5vh;
+    width: 98vw;
+
+    .container{
+        height: fit-content;
+        width: fit-content;
+        margin: 15em auto;
+        display: flex;
+        text-align: center;
+
+        .month-year{
+            background: rgba(255, 0, 0, 0.745);
+            color: white;
+            display: grid;
+            place-items: center;
+        }
+
+        .date-day{
+            background: rgba(255, 255, 255, 0.958);
+        }
+
+        .date-day, .month-year{
+            padding: 3em 2em;
+
+            .date{
+                font-size: 80px;
+            }
+
+            .year, .month{
+                font-size: 35px;
+            }
+
+            .day{
+                font-size: 25px;
+            }
+        }
+    }
+}
